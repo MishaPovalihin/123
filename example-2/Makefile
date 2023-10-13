@@ -21,5 +21,5 @@ $(RELEASE_EXEC): hello.cpp
 	g++ $(RELEASE_FLAGS) hello.cpp -o $(RELEASE_EXEC)
 
 clean:
-	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
+ 	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
 
