@@ -1,1 +1,2 @@
-hello.o
+*.o hello
+*.o hello-dbg
