@@ -6,7 +6,7 @@ RELEASE_FLAGS = -O2 -Wall -DNDEBUG
 DEBUG_FLAGS   = -g -O0 -Wall
 RELEASE_EXEC  = hello
 DEBUG_EXEC    = hello-dbg
-SOURCE        = main.cpp hello.cpp factorial.cpp
+SOURCE        = hello.cpp
 
 all: debug release
 
